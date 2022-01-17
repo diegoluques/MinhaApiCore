@@ -53,7 +53,6 @@ namespace MinhaApiCore.Api.Controllers
             return Ok(fornecedor);
         }
 
-
         [HttpPut("{id:guid}")]
         public async Task<ActionResult<FornecedorViewModel>> Atualizar(Guid id, FornecedorViewModel fornecedorViewModel)
         {
