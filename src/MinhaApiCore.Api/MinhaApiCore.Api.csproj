@@ -17,4 +17,8 @@
     <ProjectReference Include="..\MinhaApiCore.Data\MinhaApiCore.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\imagens\" />
+  </ItemGroup>
+
 </Project>
